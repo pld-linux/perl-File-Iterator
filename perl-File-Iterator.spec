@@ -4,7 +4,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	Iterator
-Summary:	File::Iterator -- iterating across files in a directory tree.
+Summary:	File::Iterator -- iterating across files in a directory tree
 Summary(pl):	File::Iterator -- iteracja po plikach w drzewie katalogów
 Name:		perl-File-Iterator
 Version:	0.08
