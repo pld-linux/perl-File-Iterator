@@ -7,7 +7,7 @@
 Summary:	File::Iterator -- iterating across files in a directory tree.
 Summary(pl):	File::Iterator -- iteracja po plikach w drzewie katalogów
 Name:		perl-File-Iterator
-Version:	0.06
+Version:	0.07
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
@@ -51,5 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Changes
 %{perl_sitelib}/%{pdir}/*.pm
 %{_mandir}/man3/*
