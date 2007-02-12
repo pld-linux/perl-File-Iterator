@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Iterator
 Summary:	File::Iterator - iterating across files in a directory tree
-Summary(pl):	File::Iterator - iteracja po plikach w drzewie katalogów
+Summary(pl.UTF-8):   File::Iterator - iteracja po plikach w drzewie katalogÃ³w
 Name:		perl-File-Iterator
 Version:	0.12
 Release:	1
@@ -29,12 +29,12 @@ can work through the filenames sequentially by doing stuff with the
 filename that the cursor points to and then advancing the cursor to
 the next filename in the list.
 
-%description -l pl
-File::Iterator udostêpnia prosty mechanizm iteracji po plikach w
-katalogu lub drzewie katalogów. Buduje listê plików, oraz udostêpnia
-kursor, wskazuj±cy na jeden konkretny plik. U¿ytkownik mo¿e pracowaæ z
-plikami sekwencyjnie, robi±c swoje z plikiem wskazywanym przez kursor,
-po czym przekierowuj±c go na kolejny plik z listy.
+%description -l pl.UTF-8
+File::Iterator udostÄ™pnia prosty mechanizm iteracji po plikach w
+katalogu lub drzewie katalogÃ³w. Buduje listÄ™ plikÃ³w, oraz udostÄ™pnia
+kursor, wskazujÄ…cy na jeden konkretny plik. UÅ¼ytkownik moÅ¼e pracowaÄ‡ z
+plikami sekwencyjnie, robiÄ…c swoje z plikiem wskazywanym przez kursor,
+po czym przekierowujÄ…c go na kolejny plik z listy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
