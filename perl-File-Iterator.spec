@@ -8,13 +8,13 @@
 Summary:	File::Iterator - iterating across files in a directory tree
 Summary(pl.UTF-8):	File::Iterator - iteracja po plikach w drzewie katalogów
 Name:		perl-File-Iterator
-Version:	0.12
+Version:	0.14
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4d0084d51cafad2955fb04029c8704d9
+# Source0-md5:	5a0ed4e527912fe53f4cddad2527f37c
 URL:		http://search.cpan.org/dist/File-Iterator/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
